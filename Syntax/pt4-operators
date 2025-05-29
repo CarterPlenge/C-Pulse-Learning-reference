@@ -1,0 +1,30 @@
+// C++'s Operators are pretty much the same as python's except for logical
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a = 5, b = 10;
+    // basic arithmetic operators
+    cout << "Addition: " << a + b << endl;        // Addition
+    cout << "Subtraction: " << a - b << endl;     // Subtraction
+    cout << "Multiplication: " << a * b << endl;  // Multiplication
+    cout << "Division: " << b / a << endl;        // Division
+    cout << "Modulus: " << b % a << endl;         // Modulus (remainder)
+    cout << "Increment: " << ++a << endl;         // Increment (prefix)
+    cout << "Decrement: " << --b << endl;         // Decrement (prefix)
+    
+    // comparison operators
+    cout << "Equal: " << (a == b) << endl;        // Equal to
+    cout << "Not Equal: " << (a != b) << endl;    // Not equal to
+    cout << "Greater Than: " << (a > b) << endl;  // Greater than
+    cout << "Less Than: " << (a < b) << endl;     // Less than
+    cout << "Greater Than or Equal To: " << (a >= b) << endl; // Greater than or equal to
+
+    // logical operators
+    cout << "Logical AND: " << (a > 0 && b > 0) << endl; // Logical AND
+    cout << "Logical OR: " << (a > 0 || b < 0) << endl;  // Logical OR
+    cout << "Logical NOT: " << !(a < b) << endl;          // Logical NOT
+
+}
