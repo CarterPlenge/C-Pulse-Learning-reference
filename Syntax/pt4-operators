@@ -27,4 +27,5 @@ int main() {
     cout << "Logical OR: " << (a > 0 || b < 0) << endl;  // Logical OR
     cout << "Logical NOT: " << !(a < b) << endl;          // Logical NOT
 
+    return 0;
 }

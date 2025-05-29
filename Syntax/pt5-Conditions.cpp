@@ -53,5 +53,5 @@ main() {
         break; // to avoid infinite loop
     } while (condition);
 
-    
+    return 0;
 }

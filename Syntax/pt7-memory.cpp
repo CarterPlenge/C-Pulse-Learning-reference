@@ -44,4 +44,6 @@ main() {
     cout << endl;
     delete[] dynamicArray;                              // free the dynamically allocated array
     dynamicArray = nullptr;                             // set pointer to nullptr after deletion to avoid dangling pointer
+
+    return 0;
 }

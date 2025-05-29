@@ -27,4 +27,6 @@ main() {
 
     character Bob {"Bob", 30, "Warrior", 100.0, false};
     cout << "Character Name: " << Bob.name << endl;
+
+    return 0;
 }

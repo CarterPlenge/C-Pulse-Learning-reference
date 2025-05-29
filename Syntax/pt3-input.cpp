@@ -9,4 +9,5 @@ int main() {
     cout << "Enter a number: ";
     cin >> number;
     
+    return 0;
 }
